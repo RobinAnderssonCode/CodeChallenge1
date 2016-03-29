@@ -42,10 +42,11 @@ public class Class2 {
 		// skickar till resultmetoden
 		result(nrArray);
 	}
-	
-	public static void result(int[] nrArray){
+
+	public static void result(int[] nrArray) {
 		String sResult = Arrays.toString(nrArray);
 		Gui.LabelClass.labelFunction(sResult);
+
 	}
-	
+
 }

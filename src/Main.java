@@ -7,9 +7,8 @@ public class Main {
 		Gui gui = new Gui();
 		gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		gui.setVisible(true);
-		gui.setSize(250, 100); // sätter storleken efter vad som finns i fönstret, annars
-								// .setSize
-		gui.setTitle("Przbelewsky");
+		gui.setSize(250, 100); 
+		gui.setTitle("Prezbelewsky");
 
 	}
 
